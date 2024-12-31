@@ -49,5 +49,4 @@ clarkwinkelmann-anonymous-posting:
             profileHelp: Only you can see your anonymous posts on your profile
     lib:
         userMeta:
-            initials: "?"
             username: Anonymous

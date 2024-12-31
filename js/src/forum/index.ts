@@ -95,7 +95,7 @@ function anonymousAvatar(post: Discussion | Post | Forum, className: string = ''
         });
     }
 
-    return m('span.Avatar.Avatar--anonymous' + className, app.translator.trans('clarkwinkelmann-anonymous-posting.lib.userMeta.initials'));
+    return m('span.Avatar.Avatar--anonymous' + className, '?');
 }
 
 app.initializers.add('anonymous-posting', () => {
